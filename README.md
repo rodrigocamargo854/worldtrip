@@ -1,4 +1,4 @@
-# WorldTrip 💜 | Dashboard feito com Chakra UI
+# WorldTrip 💜 |  feito com Chakra UI
 
 
 ## 📚 Informações sobre o projeto
