@@ -24,7 +24,7 @@ export default function Banner() {
             fontSize={["xl", "2l", "2xl", "2xl", "4xl"]}
           >
             5 continentes,
-            <br /> infinitas possibildades
+            <br /> infinitas possibilidades
           </Heading>
           <Text
             color="gray.300"
@@ -32,13 +32,16 @@ export default function Banner() {
             fontStyle={["0.8rem", "xl"]}
             maxW={["100%", "100%", "100%", "550px"]}
           >
-            {" "}
-            5 Continentes, infinitas possibilidades.
+            Chegou a hora de tirar do papel a viagem que você sempre sonhou.
           </Text>
         </div>
-        <Image w={["300px", "300px", "300px", "430px"]} 
-        
-        display={["none","none",""]}
+        <Image
+          w={["300px", "300px", "300px", "430px"]}
+          display={["none", "none", "block"]}
+          src='airplane.svg'
+          alt="Aviao amarelo voando com nuvens ao redor"
+          transform="translateY(48px)"
+          ml={8}
         />
       </Flex>
     </Flex>
