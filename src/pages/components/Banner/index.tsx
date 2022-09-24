@@ -6,7 +6,7 @@ export default function Banner() {
       w="100%"
       h={["163px", "250px", "250px", "335px"]}
       bgImage="url('/banner.jpg')"
-      bgPosition={["100% 20%, 100% 20%, 100% 30%"]}
+      bgPosition={["100% 20%", "100% 20%", "100% 30%"]}
       bgRepeat="no-repeat"
       bgSize="cover"
     >
@@ -21,15 +21,16 @@ export default function Banner() {
           <Heading
             color="gray.100"
             fontWeight="500"
-            fontSize={["xl", "2l", "2xl", "2xl", "4xl"]}
+            fontSize={["xl", "2xl", "2xl", "2xl", "4xl"]}
           >
             5 continentes,
-            <br /> infinitas possibilidades
+            <br />
+            infinitas possibilidades.
           </Heading>
           <Text
             color="gray.300"
             mt="5"
-            fontStyle={["0.8rem", "xl"]}
+            fontSize={["0.8rem", "xl"]}
             maxW={["100%", "100%", "100%", "550px"]}
           >
             Chegou a hora de tirar do papel a viagem que você sempre sonhou.
@@ -38,10 +39,10 @@ export default function Banner() {
         <Image
           w={["300px", "300px", "300px", "430px"]}
           display={["none", "none", "block"]}
-          src='airplane.svg'
-          alt="Aviao amarelo voando com nuvens ao redor"
+          src="/airplane.svg"
+          alt="Avião amarelo voando com algumas nuvens ao redor."
           transform="translateY(48px)"
-          ml={8}
+          ml="8"
         />
       </Flex>
     </Flex>
