@@ -66,7 +66,7 @@ export default function Informations() {
               <PopoverArrow bg="gray.700" />
               <PopoverCloseButton />
               <PopoverBody fontWeight="400" fontSize="lg">
-                Paris, Europa, Chile Canada, china
+                Paris, Europa, Chile, Canada, china
               </PopoverBody>
             </PopoverContent>
           </Popover>
