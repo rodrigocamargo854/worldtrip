@@ -1,8 +1,9 @@
 import { Flex, Heading, theme } from "@chakra-ui/react";
-import Banner from "./components/Banner";
-import Caracteristicas from "./components/Caracteristicas";
-import Header from "./components/Header";
-import Separate from "./components/Separate";
+import Banner from "../components/Banner";
+import Caracteristicas from "../components/Caracteristicas";
+import Header from "../components/Header";
+import Separate from "../components/Separate";
+import Slider from "../components/Slider";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         Vamos nessa? <br />
         Então escolha seu continente
       </Heading>
+      <Slider/>
     </Flex>
   );
 }
